@@ -12,15 +12,15 @@ context.lineWidth = 2;
 context.strokeStyle = "white";
 context.fillStyle = "orange";
 context.fillRect(0,0, width, height);
-drawlijn();
-}
-let i=0;
-let amount= width/i;
 
-function drawlijn() {
-for (let i =0; i<10;i++) {
-Utils.drawline();
-console.log("looping!");
+}
+let space=10;
+drawStreep();
+
+function drawStreep(){
+for (let i=0;i<(width/i);i++){
+Utils.drawLine(0+(space*i),0,width-(space*i),height);
+Utils.drawLine(0,0+(space*i),width,height-(space*i));
 }
 
 }
