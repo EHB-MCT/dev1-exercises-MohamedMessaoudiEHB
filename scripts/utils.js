@@ -24,3 +24,8 @@ return rgb;
 }
 
 
+export function drawstrokecricle(x1,y1,radius){
+context.beginPath();
+context.circle(x1,y1,radius);
+context.stroke();
+}
