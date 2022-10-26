@@ -18,13 +18,22 @@ function drawLine() {
 
     context.beginPath();
     context.moveTo(300, 300);
-    context.lineTo(450,350 );
+    context.lineTo(450, 350 );
+    context.lineTo(600, 300);
+    context.lineTo(600, 500 )
     context.stroke();
 
+    //letter o
+
     context.beginPath();
-    context.moveTo(450, 350);
-    context.lineTo(400, 220 );
+    context.moveTo(800,500);
+    context.lineTo(700, 400);
+    context.lineTo(800, 300);
+    context.lineTo(900, 400);
+    context.lineTo(800, 500)
     context.stroke();
+
+    
 
 
  }
